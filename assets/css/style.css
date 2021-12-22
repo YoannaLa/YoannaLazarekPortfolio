@@ -5,6 +5,21 @@
 .bg-color-name-title {
     background-color: #676767;
 }
+
+.ui-menu-color-home {
+    background-color: #26e2e2;
+}
+.ui-menu-color-resume {
+    background-color: #b339a8;
+}
+.ui-menu-color-contact {
+    background-color: #e4712f;
+}
+.ui-menu-color-download {
+    background-color: #65e;
+}
+
+
 /*-----------------Heading*/
 header {
     margin: 0;
@@ -15,7 +30,7 @@ header {
 }
 
 .logo {
-    background: url("../images/logo.jpg");
+    background: url("../images/logo1.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,4 +55,37 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+.menucontainer {
+    font-size: 0;
+}
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color:white;
+    height: 120px;
+
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+    
 }
