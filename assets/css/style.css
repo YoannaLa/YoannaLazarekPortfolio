@@ -276,6 +276,10 @@ footer {
     color: #fafafa;
     margin-bottom:50px;
 }
+.skill-reasons-icon {
+    color:#b339a8;
+    font-size: 26px;
+}
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -314,4 +318,8 @@ footer {
     content:'';
     background: #fafafa;
 
+}
+
+.history-item {
+    margin-bottom: 30px;
 }
