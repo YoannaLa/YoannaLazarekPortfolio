@@ -4,7 +4,6 @@
 
 .bg-color-three-reasons {
     background-color: #fff;
-
 }
 
 .bg-color-personal-info {
@@ -14,6 +13,11 @@
 .bg-color-work-history{
     background-color:#b339a8;
 }
+
+.bg-color-github{
+    background-color:#f046e2;
+}
+
 .bg-color-name-title {
     background-color: #676767;
 }
@@ -28,16 +32,20 @@
 .ui-menu-color-resume {
     background-color: #b339a8;
 }
+
+.ui-menu-color-github  {
+    background-color: #f72424;
+}
+
 .ui-menu-color-contact {
     background-color: #e4712f;
 }
+
 .ui-menu-color-download {
     background-color: #65e;
 }
 
-.ui-menu-color-github {
-    background-color: #1c4a6c;
-}
+
 /* ----------------------------------------Special paddings/margins/text */
 h1,h2,h3,h4 {
     margin: 0;
@@ -133,7 +141,7 @@ header {
 }
 
 .menuitem a {
-    width: 100%;
+    width: 60%;
     text-decoration: none;
     color:white;
     height: 120px;
@@ -331,6 +339,9 @@ footer {
 .history-item {
     margin-bottom: 30px;
 }
+
+/* ----------------Github */
+
 
 /* ----------------Contact Form */
 
