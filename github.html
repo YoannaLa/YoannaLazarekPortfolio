@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/github-information.js"></script>
+    <script type="text/javascript" src="assets/js/github-info.js"></script>
 
     <title>Yoanna Lazarek</title>
 </head>
@@ -42,7 +42,7 @@
                             <li class="col-xs-6 col-sm-3  ui-menu-color-contact list-inline-item menuitem">
                                 <a href="contact.html" class="hvr-bounce-to-top"><i class="far fa-comment" aria-hidden="true"></i><spam>Contact</spam></a>
                             </li>
-                            <li class="col-xs-6 col-sm-6  ui-menu-color-download list-inline-item menuitem">
+                            <li class="col-xs-6 col-sm-3  ui-menu-color-download list-inline-item menuitem">
                                 <a href="assets/cv/CV.pdf" target="_blank" class="hvr-bounce-to-top"><i class="fas fa-download" aria-hidden="true"></i><spam>Download</spam></a>
                             </li>
                         </ul>
@@ -52,15 +52,15 @@
         
     </header>
     <section class="container-fluid">
-        <div class="row bg-color-github section-column">
+        <div class="row bg-color-contact">
             <div class="col">
                 <h3 class="contact-heading uppercase text-center">View my github projects </h3>
                 <h5 class="uppercase text-center">You can also search on other user profiles </h5>
 
                 <div class="center-form">
-                    <input type="text" id="gd-username" value="octocat" oninput="fetchGitHubInformation()" />
-                    <div id="gd-user-data"></div>
-                    <div id="gd-repo-data"></div>
+                    <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()" />
+                    <div id="gh-user-data"></div>
+                    <div id="gh-repo-data"></div>
                 </div>
             </div>
         </div>
